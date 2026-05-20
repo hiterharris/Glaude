@@ -1,5 +1,5 @@
 import axios, { AxiosError } from 'axios';
-import { ANTHROPIC_API_KEY } from '@env';
+const ANTHROPIC_API_KEY = process.env.EXPO_PUBLIC_ANTHROPIC_API_KEY ?? '';
 import { RepoAnalysis } from '../types';
 
 const API_URL = 'https://api.anthropic.com/v1/messages';

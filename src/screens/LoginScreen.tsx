@@ -14,7 +14,8 @@ import {
 import * as AuthSession from 'expo-auth-session';
 import * as WebBrowser from 'expo-web-browser';
 import axios from 'axios';
-import { GITHUB_CLIENT_ID, GITHUB_CLIENT_SECRET } from '@env';
+const GITHUB_CLIENT_ID = process.env.EXPO_PUBLIC_GITHUB_CLIENT_ID ?? '';
+const GITHUB_CLIENT_SECRET = process.env.EXPO_PUBLIC_GITHUB_CLIENT_SECRET ?? '';
 import { useAuth } from '../context/AuthContext';
 import { getAuthenticatedUser, setAccessToken } from '../services/github';
 

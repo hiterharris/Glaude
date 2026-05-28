@@ -8,25 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
-		2A5B3119CE8C95B6F290B0B9 /* libPods-Glaude.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D485A52B5BB46FF29BF0215D /* libPods-Glaude.a */; };
+		28D809B0A9356E75006CC274 /* libPods-Glaude.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5FA3385B99B041B2792FBF /* libPods-Glaude.a */; };
+		28E967B7FB3A6BEE55791392 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 2C9DF2A5184139E091CF1E0C /* PrivacyInfo.xcprivacy */; };
 		3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */; };
-		6F028D9C3F24CA474344868B /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 48A963C4BA4C59C6E9E8861B /* PrivacyInfo.xcprivacy */; };
 		BB2F792D24A3F905000567C9 /* Expo.plist in Resources */ = {isa = PBXBuildFile; fileRef = BB2F792C24A3F905000567C9 /* Expo.plist */; };
+		D771365FA35F09797E4CD549 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F073BE875FD0D8FEDA2DF2 /* ExpoModulesProvider.swift */; };
 		F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F11748412D0307B40044C1D9 /* AppDelegate.swift */; };
-		F506D8CEFAD879AB31AFBDB5 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A287F61B20E64900F239E158 /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		13B07F961A680F5B00A75B9A /* Glaude.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Glaude.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = Glaude/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Glaude/Info.plist; sourceTree = "<group>"; };
-		48A963C4BA4C59C6E9E8861B /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Glaude/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
-		A287F61B20E64900F239E158 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Glaude/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
-		A6D31396E099CCE74EEE0B5E /* Pods-Glaude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glaude.release.xcconfig"; path = "Target Support Files/Pods-Glaude/Pods-Glaude.release.xcconfig"; sourceTree = "<group>"; };
+		2C9DF2A5184139E091CF1E0C /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Glaude/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		57F073BE875FD0D8FEDA2DF2 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-Glaude/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		59B06A29E4DDD5404843C670 /* Pods-Glaude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glaude.debug.xcconfig"; path = "Target Support Files/Pods-Glaude/Pods-Glaude.debug.xcconfig"; sourceTree = "<group>"; };
 		AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = SplashScreen.storyboard; path = Glaude/SplashScreen.storyboard; sourceTree = "<group>"; };
+		B24D8D64892F4FEADDC5B458 /* Pods-Glaude.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glaude.release.xcconfig"; path = "Target Support Files/Pods-Glaude/Pods-Glaude.release.xcconfig"; sourceTree = "<group>"; };
 		BB2F792C24A3F905000567C9 /* Expo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Expo.plist; sourceTree = "<group>"; };
-		D485A52B5BB46FF29BF0215D /* libPods-Glaude.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Glaude.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E738346C4C79C7A861F953BB /* Pods-Glaude.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Glaude.debug.xcconfig"; path = "Target Support Files/Pods-Glaude/Pods-Glaude.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5FA3385B99B041B2792FBF /* libPods-Glaude.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Glaude.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F11748412D0307B40044C1D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Glaude/AppDelegate.swift; sourceTree = "<group>"; };
 		F11748442D0722820044C1D9 /* Glaude-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Glaude-Bridging-Header.h"; path = "Glaude/Glaude-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5B3119CE8C95B6F290B0B9 /* libPods-Glaude.a in Frameworks */,
+				28D809B0A9356E75006CC274 /* libPods-Glaude.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +53,15 @@
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				AA286B85B6C04FC6940260E9 /* SplashScreen.storyboard */,
-				48A963C4BA4C59C6E9E8861B /* PrivacyInfo.xcprivacy */,
+				2C9DF2A5184139E091CF1E0C /* PrivacyInfo.xcprivacy */,
+			);
+			name = Glaude;
+			sourceTree = "<group>";
+		};
+		29601E96225742270D9F9BEC /* Glaude */ = {
+			isa = PBXGroup;
+			children = (
+				57F073BE875FD0D8FEDA2DF2 /* ExpoModulesProvider.swift */,
 			);
 			name = Glaude;
 			sourceTree = "<group>";
@@ -62,26 +70,17 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				D485A52B5BB46FF29BF0215D /* libPods-Glaude.a */,
+				EA5FA3385B99B041B2792FBF /* libPods-Glaude.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		3C6255121976B4AC65B6B908 /* ExpoModulesProviders */ = {
+		5CBA77FF3C6F0ABFA617B3D9 /* ExpoModulesProviders */ = {
 			isa = PBXGroup;
 			children = (
-				B1327C00231DF57422F0027C /* Glaude */,
+				29601E96225742270D9F9BEC /* Glaude */,
 			);
 			name = ExpoModulesProviders;
-			sourceTree = "<group>";
-		};
-		64E5308507044E0AF66719E2 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				E738346C4C79C7A861F953BB /* Pods-Glaude.debug.xcconfig */,
-				A6D31396E099CCE74EEE0B5E /* Pods-Glaude.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -98,8 +97,8 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				64E5308507044E0AF66719E2 /* Pods */,
-				3C6255121976B4AC65B6B908 /* ExpoModulesProviders */,
+				D9218B4881AA8EABD3C30D01 /* Pods */,
+				5CBA77FF3C6F0ABFA617B3D9 /* ExpoModulesProviders */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -114,14 +113,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1327C00231DF57422F0027C /* Glaude */ = {
-			isa = PBXGroup;
-			children = (
-				A287F61B20E64900F239E158 /* ExpoModulesProvider.swift */,
-			);
-			name = Glaude;
-			sourceTree = "<group>";
-		};
 		BB2F792B24A3F905000567C9 /* Supporting */ = {
 			isa = PBXGroup;
 			children = (
@@ -129,6 +120,16 @@
 			);
 			name = Supporting;
 			path = Glaude/Supporting;
+			sourceTree = "<group>";
+		};
+		D9218B4881AA8EABD3C30D01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				59B06A29E4DDD5404843C670 /* Pods-Glaude.debug.xcconfig */,
+				B24D8D64892F4FEADDC5B458 /* Pods-Glaude.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,13 +140,13 @@
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "Glaude" */;
 			buildPhases = (
 				08A4A3CD28434E44B6B9DE2E /* [CP] Check Pods Manifest.lock */,
-				3F34B016DE92FE1605D6FAA4 /* [Expo] Configure project */,
+				2BB67FCDD8EE4C35D6E8FF21 /* [Expo] Configure project */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
 				800E24972A6A228C8D4807E9 /* [CP] Copy Pods Resources */,
-				17EAC7E01894D111C41D48DE /* [CP] Embed Pods Frameworks */,
+				CDEA121847F646415EF7CE19 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,7 +196,7 @@
 				BB2F792D24A3F905000567C9 /* Expo.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				3E461D99554A48A4959DE609 /* SplashScreen.storyboard in Resources */,
-				6F028D9C3F24CA474344868B /* PrivacyInfo.xcprivacy in Resources */,
+				28E967B7FB3A6BEE55791392 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,25 +240,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		17EAC7E01894D111C41D48DE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Glaude/Pods-Glaude-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Glaude/Pods-Glaude-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3F34B016DE92FE1605D6FAA4 /* [Expo] Configure project */ = {
+		2BB67FCDD8EE4C35D6E8FF21 /* [Expo] Configure project */ = {
 			isa = PBXShellScriptBuildPhase;
 			alwaysOutOfDate = 1;
 			buildActionMask = 2147483647;
@@ -308,6 +291,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Glaude/Pods-Glaude-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CDEA121847F646415EF7CE19 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Glaude/Pods-Glaude-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/hermes-engine/Pre-built/hermes.framework/hermes",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hermes.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Glaude/Pods-Glaude-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -316,7 +317,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F11748422D0307B40044C1D9 /* AppDelegate.swift in Sources */,
-				F506D8CEFAD879AB31AFBDB5 /* ExpoModulesProvider.swift in Sources */,
+				D771365FA35F09797E4CD549 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,20 +326,18 @@
 /* Begin XCBuildConfiguration section */
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E738346C4C79C7A861F953BB /* Pods-Glaude.debug.xcconfig */;
+			baseConfigurationReference = 59B06A29E4DDD5404843C670 /* Pods-Glaude.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Glaude/Glaude.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KY84WX37NA;
 				ENABLE_BITCODE = NO;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"$(inherited)",
 					"FB_SONARKIT_ENABLED=1",
 				);
 				INFOPLIST_FILE = Glaude/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -363,15 +362,13 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6D31396E099CCE74EEE0B5E /* Pods-Glaude.release.xcconfig */;
+			baseConfigurationReference = B24D8D64892F4FEADDC5B458 /* Pods-Glaude.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = Glaude/Glaude.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = KY84WX37NA;
 				INFOPLIST_FILE = Glaude/Info.plist;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,7 +445,10 @@
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -503,7 +503,10 @@
 				);
 				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift\"$(inherited)\"";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "$(inherited)  ";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;

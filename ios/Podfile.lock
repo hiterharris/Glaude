@@ -32,6 +32,8 @@ PODS:
     - ReactCommon/turbomodule/bridging
     - ReactCommon/turbomodule/core
     - Yoga
+  - ExpoAsset (11.1.7):
+    - ExpoModulesCore
   - ExpoCrypto (14.1.5):
     - ExpoModulesCore
   - ExpoFont (13.3.2):
@@ -1879,6 +1881,7 @@ DEPENDENCIES:
   - EXApplication (from `../node_modules/expo-application/ios`)
   - EXConstants (from `../node_modules/expo-constants/ios`)
   - Expo (from `../node_modules/expo`)
+  - ExpoAsset (from `../node_modules/expo-asset/ios`)
   - ExpoCrypto (from `../node_modules/expo-crypto/ios`)
   - ExpoFont (from `../node_modules/expo-font/ios`)
   - ExpoLinking (from `../node_modules/expo-linking/ios`)
@@ -1974,6 +1977,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/expo-constants/ios"
   Expo:
     :path: "../node_modules/expo"
+  ExpoAsset:
+    :path: "../node_modules/expo-asset/ios"
   ExpoCrypto:
     :path: "../node_modules/expo-crypto/ios"
   ExpoFont:
@@ -2136,6 +2141,7 @@ SPEC CHECKSUMS:
   EXApplication: 50cc8ea58c138da6e3f25cd789634219c86b90d5
   EXConstants: 7b84e6fc99a2bc8c589b647336b6005b419b280b
   Expo: d167b9d0c951ffab935b9745d7cf65c4b4e79feb
+  ExpoAsset: 7bdbbacf4e6752ae6e3cf70555cee076f6229e6e
   ExpoCrypto: fcb6a8a08d1929f346cb95eb05a8f7818627177a
   ExpoFont: 091a47eeaa1b30b0b760aa1d0a2e7814e8bf6fe6
   ExpoLinking: 343a89ea864a851831fd4495e8aea01cf0f6a36f
